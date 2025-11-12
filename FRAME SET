@@ -1,0 +1,20 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN"
+    "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head><title>Frameset Example</title></head>
+
+<frameset rows="100px,*">
+  <frame src="web2.html" name="topFrame">
+  <frameset cols="200px,*">
+    <frame src="web3.html" name="menuFrame">
+    <frame src="web4.html" name="mainFrame">
+  </frameset>
+</frameset>
+
+<noframes>
+  <body>Your browser doesn’t support frames.</body>
+</noframes>
+</html>
+
+</body>
+</html>
